@@ -1,0 +1,30 @@
+{
+    "API": {
+    "title": "PR Review API",
+    "description": "An API to trigger automated PR reviews using a LangGraph workflow.",
+    "version": "0.1.0",
+    "docs_url": "/docs",
+    "redoc_url": "/redoc",
+    "app": "src.comms.server.rest_api.api:app",
+    "host": "0.0.0.0",
+    "port": 8000,
+    "reload": true,
+    "workers": 1,
+    "allow_origins": ["*"],
+    "allow_credentials": true,
+    "allow_methods": ["*"],
+    "allow_headers": ["*"]
+    },
+
+    "COLORS": {
+      "fetch": "\u001b[94m",
+      "analyze": "\u001b[95m",
+      "comment": "\u001b[93m",
+      "react": "\u001b[95m",
+      "supervisor": "\u001b[96m",
+      "header": "\u001b[95m",
+      "error": "\u001b[91m",
+      "merge_green": "\u001b[92m",
+      "merge_red": "\u001b[91m"
+    }
+  }
