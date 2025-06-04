@@ -227,16 +227,6 @@ The workflow is implemented as a state machine in `agent_orchestrator.py` and fo
      REPO_NAME = "your-repo"       # Repository name
      # PR number will be automatically fetched or can be specified
      ```
-## Setup and Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Go 1.16+ (for MCP server)
-- Git
-- A GitHub account with access to the target repositories
-- An OpenAI API key with access to GPT-4o
-
 ### MCP Server Setup
 
 The project uses GitHub's MCP (Model Context Protocol) server for GitHub API interactions:
